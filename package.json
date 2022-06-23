@@ -1,0 +1,21 @@
+{
+  "name": "Stripe-Payment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zaher-aa/Stripe-Payment.git",
+  "author": "zaher-aa <zaherabuamro@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./server/"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "stripe": "^9.9.0"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.16"
+  }
+}
